@@ -1,0 +1,142 @@
+body {
+	background: #1C1C1C;
+	color: #444;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	margin:0;
+	padding:0;
+}
+
+/* Titre */
+
+h1 {
+	font-size: 40px;
+	color: #B8DA40;
+	margin:0;
+}
+
+h2 {
+	color:#eee;
+}
+
+h3 {
+	color:#fff;
+}
+
+/* Liens */
+
+a {
+	color: #00C0FF;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* Conteneur */
+
+div#wrap {
+	position:relative;
+	margin:auto;
+	color: #d5d5d5;
+	width: 640px;
+	margin-top:80px;
+	margin-bottom:200px;
+}
+
+/* Images */
+
+#images img {
+	margin:0 2px;
+	border:5px solid transparent;
+}
+
+/* Texte */
+
+code {
+	font-weight:bold;
+	color:#B8DA40;
+}
+
+strong {
+	color:#EC5854;
+}
+
+/* Tableau */
+
+table {
+	border:0;
+}
+
+table th {
+	text-align:left;
+	color:#fff;
+}
+
+table td {
+	padding-right:2em;
+}
+
+/* Formulaire */
+
+form div {
+	margin-bottom:1em;
+}
+
+input[type=text] {
+	padding:4px;
+	font-size:16px;
+	border:1px solid #B8DA40;
+	width:40%;
+}
+
+input[type=radio], input[type=checkbox] {
+	margin-left:1em;
+}
+
+select, input[type=submit], button {
+	font-size:16px;
+}
+
+label {
+	display:inline-block;
+	width:200px;
+}
+
+/* Mises en valeur */
+
+.highlight {
+	color:#000;
+	background:yellow;
+}
+
+img.highlight {
+	border:5px solid yellow;
+}
+
+.highlight2 {
+	color:#000;
+	background:#B8DA40 !important;
+}
+
+.erreur {
+	background:#FFD5C7;
+	border:2px solid #c00 !important;
+	color:#000;
+}
+
+/* Questions */
+
+#questions {
+	background:#111;
+	padding:1em;
+}
+
+#questions p {
+	color:#ccc;
+}
+
+#questions p span {
+	color:#EC5854;
+}
